@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+tensorflow
+tensorflow-model-optimization
+keras
+scikit-learn
+torch
+torch-geometric
+dgl
+networkx
+scipy
+pyomo
+# gurobipy  # optional proprietary solver
