@@ -1,14 +1,32 @@
-numpy
-pandas
-matplotlib
-tensorflow
-tensorflow-model-optimization
-keras
-scikit-learn
-torch
-torch-geometric
-dgl
-networkx
-scipy
-pyomo
-# gurobipy  # optional proprietary solver
+# Core scientific computing libraries
+numpy>=1.19.5,<1.24.0
+pandas>=1.3.0,<2.0.0
+scipy>=1.7.0,<1.10.0
+
+# Data visualization
+matplotlib>=3.3.0,<3.7.0
+
+# Machine Learning - TensorFlow ecosystem
+tensorflow==2.10.0
+tensorflow-model-optimization>=0.7.0,<0.8.0
+keras>=2.10.0,<2.11.0
+
+# Machine Learning - PyTorch ecosystem
+torch>=1.12.0,<2.0.0
+torch-geometric>=2.1.0,<2.4.0
+
+# Graph Neural Networks
+dgl>=0.9.0,<1.2.0
+networkx>=2.6.0,<3.0.0
+
+# Traditional Machine Learning
+scikit-learn>=1.0.0,<1.3.0
+
+# Optimization solvers
+pyomo>=6.4.0,<6.6.0
+# gurobipy  # optional commercial solver
+
+# Data I/O
+openpyxl>=3.0.9,<3.2.0
+
+# Python version requirement: >=3.7,<3.9
